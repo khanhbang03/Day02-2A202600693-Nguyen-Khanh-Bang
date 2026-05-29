@@ -43,6 +43,14 @@ Nếu làm lại, tôi sẽ:
 - Điểm cụ thể tôi sẽ làm khác: viết lại checklist problem trước khi mở AI, để không bị dẫn dắt sang giải pháp AI ngay.
 - Ý tưởng muốn áp dụng sau: dùng workflow before/after như một công cụ kiểm tra problem và boundary trước khi chọn giải pháp.
 
+### Problem → Workflow → Metric → Boundary → AI fit
+
+1. Problem: Weekly update cần gom dữ liệu rời rạc từ nhiều nguồn và viết narrative rõ ràng.
+2. Workflow: Gom dữ liệu bằng checklist/rule, dùng AI đề xuất draft, review con người.
+3. Metric: Giảm thời gian xuống <30 phút, vẫn giữ được độ chính xác; không AI thì hoàn thành trong 45 phút.
+4. Boundary: Bao gồm tổng hợp nội dung và draft narrative; không bao gồm tự động gửi, truy cập dữ liệu bảo mật, hay thay thế người review.
+5. AI fit: Phù hợp ở bước viết/summarize khi input đã được gom và có human-in-the-loop.
+
 ## 5. Additional note
 
 Lab cho tôi nhìn rõ hơn rằng AI có thể nhanh nhưng không thay được người ra quyết định. Tôi cần dùng AI như một công cụ hỗ trợ, chứ không phải là nơi tôi trút hết trách nhiệm suy nghĩ.

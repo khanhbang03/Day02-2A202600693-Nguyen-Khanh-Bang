@@ -75,6 +75,14 @@ Group chose: **Weekly update synthesis**.
 
 **Actor:** Junior product / lab member hoặc project member cần nộp weekly status update.
 
+**Problem v0:** Người dùng tốn nhiều thời gian gom dữ liệu và viết narrative cho weekly update.
+
+**Problem v1:** User mất 60-90 phút mỗi tuần để chuyển nội dung từ Slack, Google Docs, Figma và Google Sheets thành báo cáo ngắn gọn, dẫn đến thiếu thông tin và giảm hiệu suất.
+
+**Metric:** Giảm thời gian tổng hợp weekly update xuống dưới 30 phút, giữ chính xác và rõ ràng. (Fallback: hoàn thành trong 45 phút nếu không dùng AI.)
+
+**Boundary:** Bao gồm tổng hợp dữ liệu nội bộ, đề xuất cấu trúc báo cáo, và draft narrative. Không bao gồm tự động gửi email, truy cập hệ thống bảo mật, hoặc thay thế review con người.
+
 **Problem:** Khi phải tổng hợp tiến độ và ghi nhận kết quả từ nhiều nguồn như Slack, Google Docs, Figma và Google Sheets, người làm mất nhiều thời gian viết narrative rõ ràng.
 
 **Context:** Cuối mỗi tuần hoặc trước buổi review nội bộ, người chịu trách nhiệm phải gửi cập nhật ngắn gọn cho nhóm và giảng viên.
@@ -103,6 +111,18 @@ Group chose: **Weekly update synthesis**.
 - Giảm thời gian thu thập nhưng vẫn cần người viết phần insight.
 - Ưu điểm: đáng làm nếu dữ liệu có cấu trúc.
 
+### Workflow alternative
+
+ - Dùng workflow chuẩn: gom dữ liệu bằng checklist / template, rồi cho AI đề xuất draft narrative và human review.
+ - Giảm bottleneck ở bước viết nội dung, vẫn giữ kiểm soát của con người.
+ - Ưu điểm: có thể cân bằng hiệu quả và độ tin cậy khi input đã sơ bộ.
+
+### Agent alternative
+
+ - AI tự động tạo toàn bộ status update từ dữ liệu thô.
+ - Rủi ro: hallucination, thiếu context, và không rõ trách nhiệm nếu output sai.
+ - Chỉ phù hợp khi có pipeline dữ liệu rất sạch và người dùng vẫn review kỹ.
+
 ### AI / agent alternative
 
 - AI dùng để tóm tắt nội dung và đề xuất câu văn, không thay thế quyết định người dùng.
@@ -116,6 +136,15 @@ Group quyết định chọn **Workflow + AI assistance**.
 - Agent toàn phần quá rủi ro khi dữ liệu chưa ổn định.
 - Workflow hợp lý nhất là: gom dữ liệu → AI draft → human review.
 
+### Comparison: No AI / Rule / Workflow / Agent
+
+| Option | How it works | Benefits | Risks | Fit for this problem |
+|---|---|---|---|---|
+| No AI | Dùng template và checklist manual | Ít rủi ro, dễ triển khai | Vẫn mất nhiều thời gian viết | Khi AI không khả dụng |
+| Rule | Script/form gom dữ liệu, người viết nội dung | Giảm thu thập, giữ con người chủ đạo | Không giải quyết bottleneck viết | Nếu dữ liệu có cấu trúc tốt |
+| Workflow | Gom dữ liệu + AI draft + review | Giảm thời gian viết, giữ kiểm soát | Cần input đủ rõ và review | Phù hợp nhất cho weekly update |
+| Agent | AI tạo toàn bộ output tự động | Nhanh nhất nếu dữ liệu sạch | Hallucination, trách nhiệm mơ hồ | Chưa phù hợp hiện tại |
+
 ### Human boundary and review
 
 - Người dùng vẫn kiểm tra lại nội dung; AI chỉ là gợi ý draft.
@@ -128,6 +157,14 @@ Group quyết định chọn **Workflow + AI assistance**.
 - **Why:** Problem có workflow rõ, pain thật, dữ liệu có thể gom được, và phần AI hỗ trợ là writing / summarization, không phải quyết định.
 - **Risks:** AI hallucination, output thiếu chính xác, dữ liệu đầu vào không đủ rõ.
 - **Fallback plan:** Nếu AI không cho kết quả tốt, dùng template manual và vẫn giữ workflow gom dữ liệu thô.
+
+### Go / Not Yet / No-Go
+
+| Decision | Reason |
+|---|---|
+| Go | Workflow + AI assistance cho weekly update có thể giảm đáng kể thời gian viết narrative và vẫn giữ con người review. |
+| Not Yet | Agent toàn phần chưa đủ độ tin cậy do input rời rạc và risk hallucination. |
+| No-Go | Không dùng AI chỉ khi nhóm không có dữ liệu gom được hoặc không muốn thêm bước review AI. |
 
 ## 6. Workflow before / after
 
