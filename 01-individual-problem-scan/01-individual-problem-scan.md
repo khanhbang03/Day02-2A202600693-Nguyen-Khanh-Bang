@@ -20,7 +20,7 @@ Scan at least 5 real problems from personal experience, then choose top 3 Proble
 | 5 | Pain từ người khác | Giải thích lại workflow project cho thành viên mới khi họ chưa hiểu cấu trúc file và yêu cầu | Thành viên nhóm mới | Hỏi lại 2-3 lần, mất thời gian support, gây chậm tiến độ |
 | 6 | Lặp lại | Kiểm tra mọi tài liệu có đầy đủ trước khi nộp assignment (file, link, caption) | Tôi | Phải mở nhiều file, dễ quên checklist, sửa nộp trễ |
 | 7 | Lặp lại | Cập nhật trạng thái task cá nhân vào Google Sheets và Trello bằng tay mỗi ngày | Tôi và đội | Mất 20-30 phút mỗi ngày, dễ bỏ sót task hiện tại |
-| 8 | Pain từ người khác | Giải thích dependency và trạng thái task cho thành viên mới khi có blocker | Thành viên nhóm mới | Phải lặp lại nhiều lần, gây hiểu nhầm và delay |
+| 8 | Pain từ người khác | Người lớn tuổi khó sử dụng app ngân hàng/công nghệ | Phụ huynh, người lớn tuổi | Hay phải nhờ con cháu hỗ trợ |
 | 9 | Tốn thời gian | Chuẩn bị báo cáo demo / sprint review với số liệu và ảnh chụp màn hình | Tôi và nhóm | Mất 30-45 phút gom hình ảnh, số liệu và chỉnh sửa format |
 | 10 | Data quality | Kiểm tra phiên bản tài liệu, link live và attachment trước khi nộp | Tôi | Dễ gửi nhầm file cũ hoặc link hỏng, phải sửa lại sau |
 
