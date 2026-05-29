@@ -4,6 +4,12 @@
 
 This is the group deliverable. The team should work together on one final document covering:
 
+- Team members
+  - 2A202600590 - Nguyễn Văn Quang
+  - 2A202600693 - Nguyễn Khánh Bằng
+  - 2A202600857 - Phạm Trần Nguyên Phú
+  - 2A202600975 - Mã Vĩnh Lộc
+
 - Convergence log / meeting notes
 - Validation and research
 - Problem Statement
@@ -13,15 +19,16 @@ This is the group deliverable. The team should work together on one final docume
 
 ## 1. Group convergence log
 
-- **Session 1 (May 28, 2026, 14:00-14:30):** Each member shared top 3 candidate problems. Bang presented weekly update synthesis, decision search, and rubric check. Two other members shared similar issues in status reporting and review follow-up.
-- **Session 2 (May 28, 2026, 15:00-15:20):** Group clustered candidates into three themes: information synthesis, retrieval of past decisions, and submission accuracy. We scored each candidate and discussed feasibility in the 4-hour lab.
-- **Session 3 (May 28, 2026, 15:50-16:10):** Final shortlist and validation plan. Group agreed đi sâu vào một problem có workflow rõ, evidence thật và phù hợp AI hỗ trợ.
+- **Session 1 (May 29, 2026, 14:00-14:30):** Each member shared top 3 candidate problems. Bang presented weekly update synthesis, decision search, and rubric check. Two other members shared similar issues in status reporting and review follow-up.
+- **Session 2 (May 29, 2026, 15:00-15:20):** Group clustered candidates into three themes: information synthesis, retrieval of past decisions, and submission accuracy. We scored each candidate and discussed feasibility in the 4-hour lab.
+- **Session 3 (May 29, 2026, 15:50-16:10):** Final shortlist and validation plan. Group agreed đi sâu vào một problem có workflow rõ, evidence thật và phù hợp AI hỗ trợ.
 
 ### Candidates shared by each member
 
-- Bang: weekly status update, tìm decision cũ trong Discord, so khớp rubic nộp bài.
-- Member 2: tổng hợp feedback review, viết meeting note, kiểm tra checklist nộp sản phẩm.
-- Member 3: search tài liệu cũ, xác nhận task, tổng hợp data từ CRM/Slack.
+- Nguyễn Khánh Bằng: weekly status update, tìm decision cũ trong Discord, so khớp rubic nộp bài.
+- Nguyễn Văn Quang: tổng hợp feedback review, viết meeting note, kiểm tra checklist nộp sản phẩm.
+- Phạm Trần Nguyên Phú: search tài liệu cũ, xác nhận task, tổng hợp data từ CRM/Slack.
+- Mã Vĩnh Lộc: kiểm tra completeness của file nộp, định nghĩa rõ requirement trước deadline.
 
 ### How the group clustered
 
@@ -148,3 +155,19 @@ FUTURE STATE — 25-30 phút
 
 - Nếu có thể, nhóm sẽ thêm `02-group-problem-statement-workflow.pdf` để minh họa flowchart.
 - Nếu cần, ghi lại note research vào `02-group-problem-statement-research-notes.md`.
+
+## 8. Phase 3: Finalization
+
+### Final deliverables
+
+- Hoàn chỉnh Problem Statement với workflow before/after và boundary rõ ràng.
+- Bổ sung note research và evidence validation trong file `02-group-problem-statement-research-notes.md`.
+- Chuẩn bị sơ đồ flow cho workflow AI-assisted trong `02-group-problem-statement-workflow.pdf`.
+- Kiểm tra lại thành viên nhóm và file nộp, đảm bảo tất cả nội dung đều phù hợp với rubic.
+
+### What we completed in Phase 3
+
+- Quyết định chọn giải pháp AI-assisted workflow để giảm thời gian viết narrative cho weekly update.
+- Xác định rõ actor, bottleneck, impact và success metric.
+- Đặt boundary rằng AI chỉ hỗ trợ đề xuất nội dung, con người vẫn review và quyết định cuối.
+- Liệt kê tập hợp supporting files cho Phase 3 và chuẩn bị nộp nhóm.

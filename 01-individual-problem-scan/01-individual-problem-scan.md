@@ -27,6 +27,9 @@ Scan at least 5 real problems from personal experience, then choose top 3 Proble
 **Problem in one sentence:**
 Tôi phải dành nhiều thời gian mỗi tuần để tổng hợp status update từ nhiều nguồn rời rạc và viết lại thành báo cáo ngắn gọn cho nhóm.
 
+**Quick Gut:**
+AI nên giúp gom nội dung và đề xuất narrative ngắn gọn, để tôi chỉ cần kiểm tra và chỉnh sửa.
+
 **Actor:**
 Junior product / lab member chịu trách nhiệm gửi cập nhật tuần cho nhóm và giảng viên.
 
@@ -73,6 +76,9 @@ FUTURE STATE
 **Problem in one sentence:**
 Khi cần nhớ lại quyết định hoặc requirement cũ, tôi mất nhiều thời gian tìm kiếm trong Discord, Slack và Google Drive.
 
+**Quick Gut:**
+Cần một cách nhanh để tóm tắt lại các cuộc trao đổi cũ và chỉ ra requirement liên quan mà không phải đọc toàn bộ thread.
+
 **Actor:**
 Học viên hoặc thành viên nhóm đang chuẩn bị nộp bài hoặc sửa deliverable.
 
@@ -118,6 +124,9 @@ FUTURE STATE
 
 **Problem in one sentence:**
 Tôi thường phải kiểm tra nhiều lần rubic và hướng dẫn nộp bài để chắc chắn không bỏ sót mục yêu cầu.
+
+**Quick Gut:**
+Một checklist hoặc AI review có thể nhắc tôi các mục thiếu và giảm rủi ro nộp bài thiếu phần.
 
 **Actor:**
 Sinh viên chuẩn bị nộp bài lab hoặc assignment nhóm.
