@@ -168,19 +168,11 @@ Group quyết định chọn **Workflow + AI assistance**.
 
 ## 6. Workflow before / after
 
-### Current workflow
+### Before workflow
+<img width="2008" height="1421" alt="02-group-problem-statement-workflow-before" src="https://github.com/user-attachments/assets/6eb32616-0806-4cc0-a26a-b3e6ed4d6f31" />
 
-```text
-CURRENT STATE — 70-90 phút
-[1 Thu thập nguồn thủ công: 20'] → [2 Lọc thông tin: 15'] → [3 Viết narrative: 25'] → [4 Format + review: 15'] → [5 Gửi: 5']
-```
-
-### Future workflow
-
-```text
-FUTURE STATE — 25-30 phút
-[1 Gom dữ liệu cơ bản: 10'] → [2 AI đề xuất nội dung chính: 5'] → [3 Human review + chỉnh sửa: 15'] → [4 Gửi: 3']
-```
+### After workflow
+<img width="1784" height="1351" alt="02-group-problem-statement-workflow-after" src="https://github.com/user-attachments/assets/9b3cdf62-52e5-4244-9e01-1792367f454e" />
 
 ### Notes
 
